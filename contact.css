@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sec1{
+    width: 100%;
+    background-color: rgb(135, 134, 134);
+    height: 900px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: black;
+    
+
+    
+}
+
+.sec1 h1{
+    padding-top: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+
+.formdiv{
+    width: 600px;
+    margin-top: 50px;
+    
+}
+
+.formdiv button{
+
+    margin-top: 50px;
+
+}
+
+.icdiv{
+    margin-top: 60px;
+    
+}
+
+.icdiv i{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.icdiv a i:hover{
+    
+    color:white;
+}

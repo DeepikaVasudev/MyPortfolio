@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sec1{
+    width: 100%;
+    background-color: rgb(135, 134, 134);
+    height: 620px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: black;
+
+    
+}
+
+
+.sec1 h1{
+    padding-top: 50px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 50px;
+   
+
+}
+
+.aboutdiv{
+    width: 700px;
+    line-height: 45px;
+    text-align: justify;
+    font-weight: bold;
+    
+}
+
+.imdiv{
+    height: 450px;
+    width: 450px;
+    margin-top: -10px;
+    border-radius: 150px;
+    background-color: black;
+}
+
+.image-3d {
+    box-shadow: 10px 10px 10px 10px rgba(87, 86, 86, 0.5);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .image-3d:hover {
+    transform:scale(1.05);
+  }

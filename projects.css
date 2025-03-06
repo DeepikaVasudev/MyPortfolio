@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sec1{
+    width: 100%;
+    background-color: rgb(135, 134, 134);
+    height: 620px;
+
+
+}
+
+.sec1 h1{
+    padding-top: 50px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.cards1{
+    height: 350px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.flip-card {
+    
+    width: 300px;
+    height: 300px;
+    
+    border-radius: 10px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color:white;
+    color: black;
+    align-content: center;
+    font-family: cursive;
+    border-radius: 5px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color:white;
+    color:black;
+    
+    align-content: center;
+    transform: rotateY(180deg);
+    font-family: cursive;
+    border-radius: 5px;
+  }
+
+  .icdiv{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .icdiv a{
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    text-decoration: none;
+  }
+  
